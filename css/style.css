@@ -54,7 +54,7 @@
 .works{
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 30px;
     justify-content: center;
     color: #ad7bfe;
     font-family: 'Playfair Display', serif;
