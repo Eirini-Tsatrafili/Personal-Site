@@ -1,0 +1,126 @@
+.navbar{
+    background-color: #ad7bfe;
+    font-size: xx-large;
+}
+
+.has-bg-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+
+.Background{
+    background-image: url(../assets/images/background.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    height: 750px;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10rem;
+    font-weight: bolder;
+    font-family: 'Sacramento', cursive;
+    color: #ad7bfe;
+    margin: 0;
+    padding: 8rem 8rem 0 8rem;
+}
+
+.student{
+    font-weight: bolder;
+    color: #ad7bfe;
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#information{
+    background-color: #ad7bfe;
+    color: #FBF8CC;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info{
+    font-family: 'Playfair Display', serif;
+}
+
+#projects{
+    background-color:#FBF8CC;
+}
+
+.works{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    color: #ad7bfe;
+    font-family: 'Playfair Display', serif;
+}
+
+@media (max-width: 1300px){
+    .work {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+#projects  h2 {
+    color: #F1C0E8;
+    display: flex;
+    justify-content: center;
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    font-size: 8rem;
+    padding: 5rem 5rem;
+}
+
+#projects p{
+    padding: 1rem 0rem 5rem 0rem;
+}
+
+#projects h3{
+    padding: 2rem 0rem 0rem 0rem;
+}
+
+#footer{
+    background-color: #FBF8CC;
+}
+
+#skills{
+    background-color: #F1C0E8;
+}
+
+#skills h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #FBF8CC;
+    font-size: 4rem;
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+#experience h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #FBF8CC;
+    font-size: 4rem;
+    padding: 0rem 0rem 2rem 0rem;
+}
+
+#experience h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #FBF8CC;
+    font-size: 3rem;
+    padding: 0rem 0rem 2rem 0rem;
+}
+
+.identity{
+    font-size: 1.5rem;
+}
+
+#experience{
+    background-color: #9CB9F0;
+}
