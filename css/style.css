@@ -61,7 +61,7 @@
 }
 
 @media (max-width: 1300px){
-    .work {
+    .works {
         display: flex;
         flex-direction: column;
     }
